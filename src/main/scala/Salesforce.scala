@@ -19,7 +19,7 @@ import scala.util.{Failure, Success, Try}
 object Salesforce {
 
   val servicesEndpointSuffix = "services/Soap/u/36.0/"
-  val authEndPoint = "https://login.salesforce.com/" + servicesEndpointSuffix
+  val authEndPoint = "https://test.salesforce.com/" + servicesEndpointSuffix
   val connectionTimeout = 20 * 1000
   val readTimeout = 120 * 1000
 
